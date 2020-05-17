@@ -1,4 +1,5 @@
-for Number in range (1, 101):
+max=100
+for Number in range (1, max+1):
     count = 0
     for i in range(2, (Number//2 + 1)):
         if(Number % i == 0):
